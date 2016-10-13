@@ -1,0 +1,44 @@
+body{
+	background-color: black;
+}
+
+#character1 img{
+	width: 200px;
+	float: left;
+	padding: 20px;
+	background: white;
+	margin: 10px;
+	
+}
+
+#character1 #ben{
+	color: white;
+	
+}
+
+#character2 img{
+	width: 200px;
+	height: 150px;
+	float: left;
+	padding: 20px;
+	background: white;
+	margin: 10px;
+}
+
+#character3 img{
+	width: 200px;
+	height: 150px;
+	float: left;
+	padding: 20px;
+	background: white;
+	margin: 10px;
+}
+
+#character4 img{
+	width: 200px;
+	height: 150px;
+	float: left;
+	padding: 20px;
+	background: white;
+	margin: 10px;
+}
