@@ -3,6 +3,7 @@
 <head>
 <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 	<title></title>
 </head>
 <body id="background">
@@ -17,8 +18,8 @@
 <div id="character2">
 <!-- 	<p>Darth Vader</p>
  -->	<img src="assets/images/Darth-Vader.jpg">
-<!-- 	<P>200</P>
- --></div>
+	<!-- <P>200</P> -->
+</div>
 <div id="character3">
 <!-- 	<p>Darth Maul</p>
  -->	<img src="assets/images/maul.jpg">
@@ -38,10 +39,15 @@
 <p id="p2">
 	Fight Section
 </p>
-<button>attack</button>
+<button id="attack">attack</button>
 <p id="p3">
 	Defender
 </p>
+<button onclick="restartPage()">
+	Restart
+</button>
+
+<script type="text/javascript" src="assets/javascript/javascript.js"></script>
 
 </body>
 </html>
