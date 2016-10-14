@@ -2,6 +2,54 @@ body{
 	background-color: black;
 }
 
+header{
+	color: white;
+	font-size: xx-large;
+	text-align: center;
+}
+
+#background{
+	background-image: url(../images/background.jpg);
+	width: 
+}
+
+p{
+	float: left;
+	color: white;
+	clear: both;
+	margin-left: 10px;
+}
+
+#p1{
+	margin-left: 20px;
+	font-size: large;
+}
+
+#p2{
+	margin-left: 20px;
+	font-size: large;
+}
+
+#p3{
+	margin-left: 20px;
+	font-size: large;
+}
+
+button{
+	float: left;
+	clear: both;
+	margin-left: 20px;
+
+}
+
+#title{
+	color: white;
+	float: left;
+	clear: both;
+	font-size: xx-large;
+	margin-left: 20px;
+}
+
 #character1 img{
 	width: 200px;
 	float: left;
@@ -13,7 +61,7 @@ body{
 
 #character1 #ben{
 	color: white;
-	
+
 }
 
 #character2 img{
