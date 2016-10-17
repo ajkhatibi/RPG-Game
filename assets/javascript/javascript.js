@@ -2,6 +2,7 @@ function restart() {
     window.location.reload();
 }
 
+
 $(document).ready(function() {
     var index;
     var hp;
