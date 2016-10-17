@@ -1,5 +1,17 @@
 body{
-	background: black;
+	background: url("../images/background.jpg");
+	background-size: 80%;
+}
+
+#battle{
+	width: 500px;
+	height: 500px;
+}
+
+
+header{
+	color: white;
+	text-align: center;
 }
 
 img{
