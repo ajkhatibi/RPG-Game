@@ -1,92 +1,22 @@
 body{
-	background-color: black;
+	background: black;
 }
 
-header{
-	color: white;
-	font-size: xx-large;
-	text-align: center;
+img{
+	width: 100px;
 }
 
-#background{
-	background-image: url(../images/background.jpg);
-	width: 
+#yours{
+	width: 500px;
+	height: 500px
 }
 
-p{
-	float: left;
-	color: white;
-	clear: both;
-	margin-left: 10px;
+#enemies{
+	width: 500px;
+	height: 500px;
 }
 
-#p1{
-	margin-left: 20px;
-	font-size: large;
-}
-
-#p2{
-	margin-left: 20px;
-	font-size: large;
-}
-
-#p3{
-	margin-left: 20px;
-	font-size: large;
-}
-
-button{
-	float: left;
-	clear: both;
-	margin-left: 20px;
-
-}
-
-#title{
-	color: white;
-	float: left;
-	clear: both;
-	font-size: xx-large;
-	margin-left: 20px;
-}
-
-#character1 img{
-	width: 200px;
-	float: left;
-	padding: 20px;
-	background: white;
-	margin: 10px;
-	
-}
-
-#character1 #ben{
-	color: white;
-
-}
-
-#character2 img{
-	width: 200px;
-	height: 150px;
-	float: left;
-	padding: 20px;
-	background: white;
-	margin: 10px;
-}
-
-#character3 img{
-	width: 200px;
-	height: 150px;
-	float: left;
-	padding: 20px;
-	background: white;
-	margin: 10px;
-}
-
-#character4 img{
-	width: 200px;
-	height: 150px;
-	float: left;
-	padding: 20px;
-	background: white;
-	margin: 10px;
+#chooseChar{
+	width: 500px;
+	height: 500px;
 }

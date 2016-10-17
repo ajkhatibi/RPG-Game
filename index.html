@@ -1,53 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 	<title></title>
 </head>
-<body id="background">
-
-<header>RPG Star Wars</header>
-
-<div id="character1">
-	<!-- <p id="ben">Ben Kenobi</p> -->
-	<img src="assets/images/Ben_Kenobi.png">
-	<!-- <p id="benshealth">120</p> -->
+<body>
+<div id="chooseChar">
+<img id="img1" value="500" src="assets/images/Ben_kenobi.png">
+<img id="img2" value="200" src="assets/images/Darth-Vader.jpg">
+<img id="img3" value="300" src="assets/images/luke.jpg">
+<img id="img4" value="350" src="assets/images/maul.jpg">
 </div>
-<div id="character2">
-<!-- 	<p>Darth Vader</p>
- -->	<img src="assets/images/Darth-Vader.jpg">
-	<!-- <P>200</P> -->
+<button id="attack">Attack</button>
+<button onclick="restart()">Restart</button>
+<div id="yours">
+<!-- this is where the images go for battle -->
 </div>
-<div id="character3">
-<!-- 	<p>Darth Maul</p>
- -->	<img src="assets/images/maul.jpg">
-<!-- 	<p>150</p>
- --></div>
-<div id="character4">
-<!-- 	<p>Luke Skywalker</p> -->
-	<img src="assets/images/luke.jpg">
-<!-- 	<p>300</p> -->
+<div id="enemies">
+	
 </div>
-<h1 id="title">
-	Your Character
-</h1>
-<p id="p1">
-	Enemies Avaiable to Attack
-</p>
-<p id="p2">
-	Fight Section
-</p>
-<button id="attack">attack</button>
-<p id="p3">
-	Defender
-</p>
-<button onclick="restartPage()">
-	Restart
-</button>
-
 <script type="text/javascript" src="assets/javascript/javascript.js"></script>
-
 </body>
 </html>
