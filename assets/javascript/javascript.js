@@ -43,14 +43,48 @@ $(document).ready(function() {
             $("#enemies").append('<img id="img3" value="300" src="assets/images/luke.jpg">');
         }
 
-        // $("#enemies img").click(function(){
-        //     var index2 = $("#enemies img").index(this);
-        //     if (index2 === 0) {
-        //     $("#img1").hide();
-        //     $("#battle").append('<img id="img1" src="assets/images/Ben_kenobi.png">');
+        $("#enemies img").click(function(){
+            var index2 = $("#enemies img").index(this);
+            console.log(index + index2);
+            if (index === 0 && index2 === 0){
+            $("#enemies #img2").hide();
+            $("#battle").append('<img id="img2" value="200" src="assets/images/Darth-Vader.jpg">');
 
-        //     }
-        // })
+            } else if (index === 0 && index2 === 1){
+                $("#enemies #img3").hide();
+                $("#battle").append('<img id="img3" value="300" src="assets/images/luke.jpg">');
+            } else if (index === 0 && index2 === 2){
+                $("#enemies img4").hide();
+                $("#battle").append('<img id="img4" value="300" src="assets/images/maul.jpg">');
+            } else if (index === 1 && index2 === 0){
+                $("#enemies img1").hide();
+                $("#battle").append('<img id="img1" value="500" src="assets/images/Ben_kenobi.png">');
+            } else if (index === 1 && index2 === 1){
+                $("#enemies #img3").hide();
+                $("#battle").append('<img id="img3" value="300" src="assets/images/luke.jpg">');
+            } else if (index === 1 && index2 === 2){
+                $("#enemies #img4").hide();
+                $("#battle").append('<img id="img4" value="300" src="assets/images/maul.jpg">');
+            } else if (index === 2 && index2 === 0){
+                $("#enemies img1").hide();
+                $("#battle").append('<img id="img1" value="500" src="assets/images/Ben_kenobi.png">');
+            } else if(index === 2 && index2 === 1){
+                $("#enemies #img3").hide();
+                $("#battle").append('<img id="img3" value="300" src="assets/images/luke.jpg">');
+            } else if (index === 2 && index2 ===2){
+                $("#enemies #img4").hide();
+                $("#battle").append('<img id="img4" value="300" src="assets/images/maul.jpg">');
+            } else if (index === 3 && index2 === 0){
+                $("#enemies img1").hide();
+                $("#battle").append('<img id="img1" value="500" src="assets/images/Ben_kenobi.png">');
+            } else if(index === 3 && index2 === 1){
+                $("#enemies #img2").hide();
+                $("#battle").append('<img id="img2" value="200" src="assets/images/Darth-Vader.jpg">');
+            } else if (index === 3 && index2 ===2){
+                $("#enemies #img3").hide();
+                $("#battle").append('<img id="img3" value="300" src="assets/images/luke.jpg">');
+            }
+        })
 
         $("#attack").click(function(){
 
