@@ -5,7 +5,7 @@ body{
 
 #battle{
 	width: 500px;
-	height: 500px;
+	height: 200px;
 }
 
 
@@ -20,15 +20,15 @@ img{
 
 #yours{
 	width: 500px;
-	height: 500px
+	height: 200px
 }
 
 #enemies{
 	width: 500px;
-	height: 500px;
+	height: 200px;
 }
 
 #chooseChar{
 	width: 500px;
-	height: 500px;
+	height: 200px;
 }

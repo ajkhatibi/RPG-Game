@@ -5,6 +5,7 @@ function restart() {
 
 $(document).ready(function() {
     var index;
+    var index2;
     var hp;
     var clicks = 0;
     var decrease = 100;
@@ -45,6 +46,10 @@ $(document).ready(function() {
 
         $("#enemies img").click(function(){
             var index2 = $("#enemies img").index(this);
+            function secName (index2){
+                var index2 = $("#enemies img").index(this);
+            }
+            var hp2 = parseInt($(this).attr("value"));
             console.log(index + index2);
             if (index === 0 && index2 === 0){
             $("#enemies #img2").hide();
@@ -54,7 +59,7 @@ $(document).ready(function() {
                 $("#enemies #img3").hide();
                 $("#battle").append('<img id="img3" value="300" src="assets/images/luke.jpg">');
             } else if (index === 0 && index2 === 2){
-                $("#enemies img4").hide();
+                $("#enemies #img4").hide();
                 $("#battle").append('<img id="img4" value="300" src="assets/images/maul.jpg">');
             } else if (index === 1 && index2 === 0){
                 $("#enemies img1").hide();
@@ -66,16 +71,16 @@ $(document).ready(function() {
                 $("#enemies #img4").hide();
                 $("#battle").append('<img id="img4" value="300" src="assets/images/maul.jpg">');
             } else if (index === 2 && index2 === 0){
-                $("#enemies img1").hide();
+                $("#enemies #img1").hide();
                 $("#battle").append('<img id="img1" value="500" src="assets/images/Ben_kenobi.png">');
             } else if(index === 2 && index2 === 1){
-                $("#enemies #img3").hide();
-                $("#battle").append('<img id="img3" value="300" src="assets/images/luke.jpg">');
+                $("#enemies #img2").hide();
+                $("#battle").append('<img id="img2" value="200" src="assets/images/Darth-Vader.jpg">');
             } else if (index === 2 && index2 ===2){
                 $("#enemies #img4").hide();
                 $("#battle").append('<img id="img4" value="300" src="assets/images/maul.jpg">');
             } else if (index === 3 && index2 === 0){
-                $("#enemies img1").hide();
+                $("#enemies #img1").hide();
                 $("#battle").append('<img id="img1" value="500" src="assets/images/Ben_kenobi.png">');
             } else if(index === 3 && index2 === 1){
                 $("#enemies #img2").hide();
@@ -91,7 +96,15 @@ $(document).ready(function() {
             clicks++
             if (hp > 0){
             hp -= decrease;
-            alert(array[index] + " is fighting everyone! He just took " + decrease + " damage! He has " + hp + " of health left.");
+            var firstName = array[index]
+            if (index > -1){
+                array.splice(index, 1)
+            }
+            var secondName = array[];
+            console.log(secondName);
+
+
+            alert(firstName + " is fighting " + secondName  + "He just took " + decrease + " damage! He has " + hp + " of health left.");
             console.log(hp)
             console.log(clicks)
             } else if (hp < 1){
