@@ -95,16 +95,10 @@ $(document).ready(function() {
 
             clicks++
             if (hp > 0){
-            hp -= decrease;
-            var firstName = array[index]
-            if (index > -1){
-                array.splice(index, 1)
-            }
-            var secondName = array[];
-            console.log(secondName);
+            hp -= decrease
 
 
-            alert(firstName + " is fighting " + secondName  + "He just took " + decrease + " damage! He has " + hp + " of health left.");
+            alert(hp + " is fighting He just took " + decrease + " damage! He has " + hp + " of health left.");
             console.log(hp)
             console.log(clicks)
             } else if (hp < 1){
